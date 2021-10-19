@@ -65,9 +65,9 @@ class Blogger : Employee {
 
 class Program {
   public static void Main (string[] args) {
-    Employee rabotnik1 = new Zavodchanin("amogus", 21, 1500, "Kirpichnyi");
+    Zavodchanin rabotnik1 = new Zavodchanin("amogus", 21, 1500, "Kirpichnyi");
     rabotnik1.Info();
-    Employee rabotnik2 = new Kassir("Joe Biden", 54, 400, "Pyaterochka");
+    Kassir rabotnik2 = new Kassir("Joe Biden", 54, 400, "Pyaterochka");
     rabotnik2.Info();
     Blogger rabotnik3 = new Blogger("Danya Milokhin", 19, 9999999, "TikTok");
     rabotnik3.Info();
